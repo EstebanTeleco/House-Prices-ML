@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+
+# Datos de la competencia (hay que descargarlos de Kaggle, ver data/README.md)
+data/*.csv
+
+# Resultados generados al correr el proyecto
+outputs/*.csv
+outputs/*.png
+!outputs/.gitkeep
